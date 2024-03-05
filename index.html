@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="img-container">
+        <img
+          src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+        />
+        <span>ODIN</span>
+      </div>
+      <div class="content">
+        <div class="ch1">
+          <div class="long-para">
+            This is not a real online service! you need something <br />
+            like this in your life to help you realise your deepest dreams. Sign
+            up now to get started.
+          </div>
+          <div class="short-para">You know you want to.</div>
+        </div>
+        <h4>Lets do this!</h4>
+        <div class="ch2">
+          <form action="">
+            <div class="inputt">
+              <div class="left-input">
+                <label for="name1">FIRST NAME</label>
+                <div>
+                  <input type="text" , name="first-name" id="name1" required />
+                </div>
+
+                <label for="email">EMAIL</label>
+                <div>
+                  <input type="email" , name="email" id="email" required />
+                </div>
+
+                <label for="password">PASSWORD</label>
+                <div>
+                  <input type="password" , name="password" id="password" />
+                </div>
+              </div>
+
+              <div class="right-input">
+                <label for="name2">LAST NAME</label>
+                <div>
+                  <input type="text" , name="last-name" id="name2" required />
+                </div>
+                <label for="foni">PHONE NUMBER</label>
+                <div>
+                  <input
+                    type="tel"
+                    ,
+                    name="phone-number"
+                    id="foni"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    placeholder="Enter phone number"
+                    required
+                  />
+                </div>
+                <label for="password"> CONFIRM PASSWORD</label>
+                <div>
+                  <input type="password" , name="password" id="password" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="ch3">
+          <div class="button">
+            <button type="submit">Create Account</button>
+          </div>
+          <div class="already">
+            Aready have an account?
+            <span
+              ><a href="https://web-platform-ybw4tm.stackblitz.io"
+                >Log in
+              </a></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
